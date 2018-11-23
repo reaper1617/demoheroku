@@ -8,6 +8,8 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
 
+
+
     <name>herokudemo</name>
     <description>Demo project for Spring Boot</description>
 
@@ -52,8 +54,12 @@
                 <groupId>com.heroku.sdk</groupId>
                 <artifactId>heroku-maven-plugin</artifactId>
                 <version>2.0.6</version>
+                <configuration>
+                    <appName>demoheroku9876</appName>
+                </configuration>
             </plugin>
         </plugins>
+
     </build>
 
 
